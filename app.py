@@ -5,6 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
+    raise Exception("Internal server error.")
     return "Welcome to your first Flask application!"
 
 
